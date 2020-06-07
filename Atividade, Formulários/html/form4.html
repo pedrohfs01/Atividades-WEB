@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<style>
+	form{
+		margin: 0 auto;
+		width: 400px;
+		padding: 1em;
+	}
+	label {
+    display: inline-block;
+    text-align: right;
+}
+form div + div {
+    margin-top: 1em;
+}
+
+</style>
+<head>
+	<title>Formulario 4</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Formulário</legend>
+			<div>
+				<label>Nome</label>
+				<input type="text" name="nome"/>
+			</div>
+			<div>
+				<label>E-mail</label>
+				<input type="email" name="email"/>
+			</div>
+			<div>
+				<label>Telefone</label>
+				<input type="tel" name="telefone"/>
+			</div>
+			<div>
+				<label>Idade</label>
+				<input type="number" name="idade" style="width: 40px;" min="0" max="100"/>
+			</div>
+			<div>
+				<label>Sexo </label>
+				<input type="radio" name="sexo" value="Masculino"/>Masculino
+				<input type="radio" name="sexo" value="Feminino" />Feminino	
+			</div>
+			<div>
+				<label>Seu navegador:</label><br>
+				<input type="checkbox" name="navegador1" value="GC">Google Chrome<br>
+				<input type="checkbox" name="navegador2" value="MF">Mozilla Firefox<br>
+				<input type="checkbox" name="navegador3" value="SF">Safari<br>
+				<input type="checkbox" name="navegador4" value="IE">Internet Explore<br>
+				<input type="checkbox" name="navegador5" value="OT">Outros
+			</div>
+			<div>
+				<label>Mensagem</label>
+				<input type="text" name="Mensagem" style="width: 600px; height: 100px">
+				
+			</div>
+			<div class="button">
+				<button type="submit">Enviar</button>
+				<button type="submit">Limpar</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+</html>

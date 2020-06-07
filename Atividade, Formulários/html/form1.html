@@ -1,0 +1,81 @@
+<!doctype HTML>
+
+<style>
+	form{
+		margin: 0 auto;
+		width: 400px;
+		padding: 1em;
+	}
+	label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+form div + div {
+    margin-top: 1em;
+}
+input, textarea {
+    font: 1em sans-serif;
+
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+
+    border-color: #000;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+.button {
+    padding-left: 90px; 
+}
+button {
+    margin-left: .5em;
+}
+
+h1{
+	font-family: arial;
+	font-size: 30px;
+	color: #F08080;
+}
+
+</style>
+
+
+<html>
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario 1</title>
+</head>
+
+
+<body>
+	<center>
+		<h1>Formulário de login e senha</h1>
+	</center>
+	</br>
+	<form>
+		<fieldset>
+		<legend>Insira seu e-mail e senha: </legend>
+		<div>
+			<label>Email: </label>
+			<input type="email" name="email" placeholder= "Coloque seu email aqui" />
+		</div>
+		<div>
+			<label>Senha: </label>
+			<input type="password" name="senha" placeholder= "Coloque sua senha aqui" />
+		</div>
+		<div class="button">
+			<button type="submit" onclick="Logado">Logar</button>
+			<button type="submit" onclick="Cancelado">Cancelar</button>
+		</div>
+		</fieldset>
+	</form>
+</body>
+
+</html>

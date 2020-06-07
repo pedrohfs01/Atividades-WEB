@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="..\css\styles.css">
+</head>
+<body style="background-image: url('../images/background.jpg');">
+<center>
+	<div class="menu">
+	<ul>.
+		<li><a href="..\index.html" class="active">Sobre o São Paulo</a></li>
+		<li><a href="..\html\titulos.html">Titulos e Conquistas</a></li>
+		<li><a href="..\html\morumbi.html">Estádio Morumbi</a></li>
+		<li><a href="..\html\cadastro.html">Cadastre-se no site!</a></li>
+	</ul>
+	</div></center><br><br>
+	<h2 id="cadastroh2">Cadastre-se para ser nosso sócio!</h2>
+	<br><br>
+<center>
+	<form id="formulario">
+		<fieldset><legend>Cadastre-se</legend>
+		<label>Nome:</label>
+		<input type="text" name="nome" placeholder="Digite seu nome"><br><br>
+
+		<label>Idade:</label>
+		<input type="number" name="idade" min="18" max="100" value="18"><br><br>
+		
+		<label>CPF:</label>
+		<input type="text" name="cpf" placeholder="XXX.XXXXXX-XX"><br><br>
+
+		<label>Sexo:</label>
+		<input type="radio" name="sexo" value="masculino">Masculino
+		<input type="radio" name="sexo" value="feminino">Feminino<br><br>
+
+		<label>Telefone:</label>
+		<input type="tel" name="telefone" placeholder="(XXX)XXXXX-XXXX"><br><br>
+
+		<label>Data de Nascimento:</label>
+		<input type="date" name="nascimento"><br><br>
+
+		<label>E-mail:</label>
+		<input type="email" name="email" placeholder="Digite seu e-mail"><br><br>
+
+		<label>Endereço:</label>
+		<input type="text" name="endereco" placeholder="Digite seu endereço"> <br><br>
+
+		<label>Marque o seu plano sócio-torcedor: </label>
+		<input type="checkbox" name="prata">Prata
+		<input type="checkbox" name="ouro">Ouro
+		<input type="checkbox" name="diamante">Diamante<br><br>
+
+		<input type="submit" name="botao" value="Cadastrar">
+		<input type="reset" name="redefinir" value="Redefinir">
+		<input type="submit" name="cancelar" value="Cancelar">
+
+		</fieldset>
+	</form>
+	
+
+	<h3 id="cadastroh3">Conheça as vantagens do sócio-torcedor:</h3></center>
+	<fieldset id="vantagens">
+	<ul>
+		<li>Prata(30$) Ganhe desconto em todos os setores do estádio de 10%.</li>
+		<li>Ouro(70$) Ganhe desconto em todos os setores do estádio de 30%.</li>
+		<li>Diamante(150$) Ganhe desconto em todos os setores do estádio de 50% e ainda exclusividade com nossos jogadores.</li>
+	</ul>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+ 	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: auto;
+	font-family: Arial;
+}
+.menu li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+.menu a {
+	display: block;
+	  color: white;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+}
+.menu li:hover a {
+	background: #000000;
+}
+.active {
+  background-color: #4CAF50;
+}
+#formulario fieldset{
+	border-color: lightblue;
+	color: white;
+	border-radius: 10px;
+    width: 50%;
+	text-align: center;
+}
+#formulario fieldset:hover{
+	background-color: gray;
+}
+#formulario input{
+	border-radius: 5px;
+}
+#vantagens{
+	border-color: #FF6347	;
+}
+#cadastroh2{
+	color: white;
+	text-align: center;
+	font-family: Andale Mono, monospace	;
+}
+#cadastroh3{
+	color: white;
+}
+#indexh1{
+	color: white;
+	text-align: center;
+	font-family: Andale Mono, monospace	;
+}
+#vantagens ul li{
+	color: white;
+}
+.indexp{
+	color:white;
+	text-align: center;
+	font-family: Andale Mono, monospace	;
+	font-size: 20px;
+}
+#logospfc{
+	width: 500px;
+	height: 300px;
+}
+#titulos ul{
+	list-style-type: square;
+	color: white;
+	font-size: 25px;
+	font-family: Arial, solid;
+	text-align: justify;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-indent: 2px;
+	  line-height: 2.5;
+	  text-shadow: 1px 1px lightblue;
+
+}
